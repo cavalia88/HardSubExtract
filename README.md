@@ -108,7 +108,7 @@ pip install git+https://github.com/cavalia88/HardSubExtract.git
 - Japanese - japan
 - Korean - korean
 - Chinese - ch
-- Chinese Traditional - ch_tra
+- Chinese Traditional - chinese_cht
 - Italian - it
 - Spanish - es
 - Portuguese - pt
