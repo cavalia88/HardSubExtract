@@ -18,7 +18,7 @@ def extract_subtitles(video_path, output_path, lang='en', fps=5, start_time=1, e
         output_path = os.path.splitext(video_path)[0] + '.srt'
         
     # Set split_words based on language
-    split_words = lang not in ['japan', 'korean', 'ch', 'ch_tra']
+    split_words = lang not in ['japan', 'korean', 'ch', 'chinese_cht']
     print(f"Using language: {lang}, Word spacing: {split_words}")
 
     # Initialize PaddleOCR
